@@ -13,6 +13,8 @@
 		2BE5BB072A688C20007092ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE5BB052A688C20007092ED /* Main.storyboard */; };
 		2BE5BB092A688C25007092ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE5BB082A688C25007092ED /* Assets.xcassets */; };
 		2BE5BB0C2A688C25007092ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE5BB0A2A688C25007092ED /* LaunchScreen.storyboard */; };
+		2BFAB7E02A70178F0045087C /* GetGptApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFAB7DF2A70178F0045087C /* GetGptApiRequest.swift */; };
+		2BFAB7E22A7017A40045087C /* PostGptApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFAB7E12A7017A40045087C /* PostGptApiRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2BE5BB082A688C25007092ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BE5BB0B2A688C25007092ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BE5BB0D2A688C25007092ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BFAB7DF2A70178F0045087C /* GetGptApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGptApiRequest.swift; sourceTree = "<group>"; };
+		2BFAB7E12A7017A40045087C /* PostGptApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGptApiRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				2BE5BAFF2A688C20007092ED /* AppDelegate.swift */,
 				2BE5BB012A688C20007092ED /* SceneDelegate.swift */,
 				2BE5BB032A688C20007092ED /* ViewController.swift */,
+				2BFAB7DF2A70178F0045087C /* GetGptApiRequest.swift */,
+				2BFAB7E12A7017A40045087C /* PostGptApiRequest.swift */,
 				2BE5BB052A688C20007092ED /* Main.storyboard */,
 				2BE5BB082A688C25007092ED /* Assets.xcassets */,
 				2BE5BB0A2A688C25007092ED /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 				2BE5BB042A688C20007092ED /* ViewController.swift in Sources */,
 				2BE5BB002A688C20007092ED /* AppDelegate.swift in Sources */,
 				2BE5BB022A688C20007092ED /* SceneDelegate.swift in Sources */,
+				2BFAB7E22A7017A40045087C /* PostGptApiRequest.swift in Sources */,
+				2BFAB7E02A70178F0045087C /* GetGptApiRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
