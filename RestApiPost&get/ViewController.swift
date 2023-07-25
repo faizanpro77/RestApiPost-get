@@ -59,6 +59,8 @@ class ViewController: UIViewController {
         }
     }
     
+    //MARK: 201 --post mai and 200 get mai milta hai status code
+    //MARK: check data value in terminal (po response.statusCode)
     
     func getUserData() {
         
@@ -73,6 +75,17 @@ class ViewController: UIViewController {
                 
                 if let data = data {
                     if error == nil {
+                        
+                        if let response = urlResponse as? HTTPURLResponse {
+                            print(response.statusCode)
+                            guard (200...299) ~= response.statusCode else {
+                                print("status code:- \(response.statusCode)")
+                                print(response)
+                                return
+                            }
+                            
+                        }
+                        
                         
                         let response = String(data: data, encoding: .utf8)
                         print(response!)
